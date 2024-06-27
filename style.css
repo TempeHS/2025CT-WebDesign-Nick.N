@@ -1,12 +1,16 @@
 
 body {
   padding: 25px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
-  font-size: 25px;
 }
 
 .dark-mode {
-  background-color: black;
-  color: rgb(255, 255, 255);
+  background-color: rgb(53, 53, 53);
+  color: rgb(0, 0, 0);
+}
+
+.navbar {
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
