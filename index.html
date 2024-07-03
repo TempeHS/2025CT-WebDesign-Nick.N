@@ -14,10 +14,11 @@
 
 <body>
 
-    <button onclick="darkMode();darkMode2()">dark mode</button>
+
     <!-- START TOP NAVIGATION -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid" id="NavBarDiv">
+            <button onclick="darkMode();darkMode2()">dark mode</button>
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="My Logo" height="100"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -27,10 +28,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Story</a>
+                        <a class="nav-link active" href="AboutUs.html">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="home.html" role="button" data-bs-toggle="dropdown"
@@ -59,8 +60,20 @@
     </nav>
     <!-- END TOP NAVIGATION -->
     <!-- START BUTTON -->
-    <button type="button" class="btn btn-primary btn-lg">Large button</button>
-    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-lg">button</button>
+                <button type="button" class="btn btn-secondary btn-lg">button</button>
+            </div>
+            <div class="col-10 col-md-1">
+                <button type="button" class="btn btn-secondary btn-lg">button</button>
+            </div>
+        </div>
+
+    </div>
+
+
 
     <!-- END BUTTON -->
     <!-- START HERO SLIDER -->
@@ -97,7 +110,7 @@
         .col-md,
         .col-sm-12,
         .col-lg-4 {
-            border: black 1px solid
+            border: black 0px solid
         }
     </style>
 
@@ -155,12 +168,6 @@
 
     <!-- END CARDS -->
 
-    <!-- START MODAL -->
-    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
-        aria-valuemax="100">
-        <div class="progress-bar" style="width: 25%">25%</div>
-    </div>
-    <!-- END MODAL -->
 
 
     <!-- START TOAST -->
@@ -177,12 +184,12 @@
     </div>
     <!-- END TOAST -->
 
-    <body></body>
+</body>
 
-    <!-- DO NOT EDIT BELOW THIS LINE -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+<!-- DO NOT EDIT BELOW THIS LINE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
